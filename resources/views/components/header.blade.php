@@ -4,7 +4,7 @@
             <ul class="block list-none py-0.5 px-0">
                 <li class="relative mr-4 float-left list-none w-auto">
                     <a href="#" class="text-white">
-                        <i class="fa fa-bars fa-fw" aria-hidden="true"></i><span>Quick links</span>
+                        <i class="fa fa-bars fa-fw mr-1" aria-hidden="true"></i><span>Quick links</span>
                     </a>
                     <div class="hidden">
                         <div class="pointer">
@@ -50,17 +50,17 @@
                 </li>
                 <li class="relative mr-4 float-left list-none w-auto">
                     <a href="#" class="text-white">
-                        <i class="fa fa-question-circle fa-fw" aria-hidden="true"></i><span>FAQ</span>
+                        <i class="fa fa-question-circle fa-fw mr-1" aria-hidden="true"></i><span>FAQ</span>
                     </a>
                 </li>
                 <li class="relative mr-4 float-right list-none w-auto">
                     <a href="#" class="text-white">
-                        <i class="fa fa-power-off fa-fw" aria-hidden="true"></i><span>Login</span>
+                        <i class="fa fa-power-off fa-fw mr-1" aria-hidden="true"></i><span>Login</span>
                     </a>
                 </li>
                 <li class="relative mr-4 float-right list-none w-auto">
                     <a href="#" class="text-white">
-                        <i class="fa fa-pencil-square-o fa-fw" aria-hidden="true"></i><span>Register</span>
+                        <i class="fa fa-pencil fa-fw mr-1" aria-hidden="true"></i><span>Register</span>
                     </a>
                 </li>
             </ul>
