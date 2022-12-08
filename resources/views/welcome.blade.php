@@ -16,7 +16,14 @@
 
         <div class="bg-white relative -mt-[50px] z-30 p-[30px] box-border shadow-md">
             <x-forum.breadcrumb :items="['Board index']"></x-forum.breadcrumb>
-            <h1 class="text-red-500">Nothing</h1>
+
+            <div class="m-0 clear-both">
+                <h1 class="text-red-500">Nothing</h1>
+
+                <x-forum.info-container>
+                    <h1 class="text-red-500">Nothing</h1>
+                </x-forum.info-container>
+            </div>
         </div>
 
         {{-- @include('components.social') --}}
