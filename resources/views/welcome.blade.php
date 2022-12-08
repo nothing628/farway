@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Farway</title>
     <link rel="stylesheet" href="{{ asset('css/fonts.css') }}" />
-    <link rel="stylesheet" href="{{ asset('css/fontawesome.min.css')}}" />
+    <link rel="stylesheet" href="{{ asset('css/all.min.css')}}" />
     @vite('resources/css/app.css')
 </head>
 
@@ -14,8 +14,11 @@
     <div class="xl:w-[1200px] w-full mx-auto my-0 rounded-lg p-0">
         @include('components.header')
 
-        <h1 class="text-red-500">Nothing</h1>
+        <div class="bg-white relative -mt-[50px] z-30 p-[30px] box-border shadow-md">
+            <h1 class="text-red-500">Nothing</h1>
+        </div>
 
+        {{-- @include('components.social') --}}
         @include('components.footer')
         @include('components.copyright')
     </div>
