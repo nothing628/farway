@@ -15,6 +15,7 @@
         @include('components.header')
 
         <div class="bg-white relative -mt-[50px] z-30 p-[30px] box-border shadow-md">
+            <x-forum.breadcrumb :items="['Board index']"></x-forum.breadcrumb>
             <h1 class="text-red-500">Nothing</h1>
         </div>
 
