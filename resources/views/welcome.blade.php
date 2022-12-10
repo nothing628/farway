@@ -21,7 +21,9 @@
                 <h1 class="text-red-500">Nothing</h1>
 
                 <x-forum.info-container>
-                    <h1 class="text-red-500">Nothing</h1>
+                    <x-forum.information.login></x-forum.information.login>
+                    <x-forum.information.online-stat></x-forum.information.online-stat>
+                    <x-forum.information.statistic></x-forum.information.statistic>
                 </x-forum.info-container>
             </div>
         </div>
