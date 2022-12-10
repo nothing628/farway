@@ -11,8 +11,8 @@
         </ul>
         <div class="float-right block relative mr-4 -mt-[36px]" aria-expanded="true">
             <a class="text-white" href="#">
-                <span class="fa fa-minus tooltip-left block"></span>
-                <span class="fa fa-plus tooltip-left hidden"></span>
+                <span class="fa fa-minus block"></span>
+                <span class="fa fa-plus hidden"></span>
             </a>
         </div>
 

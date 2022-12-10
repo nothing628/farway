@@ -18,7 +18,11 @@
             <x-forum.breadcrumb :items="['Board index']"></x-forum.breadcrumb>
 
             <div class="m-0 clear-both">
-                <h1 class="text-red-500">Nothing</h1>
+                <div>
+                    <x-forum.category-container>
+                        <h1 class="text-red-500">Nothing</h1>
+                    </x-forum.category-container>
+                </div>
 
                 <x-forum.info-container>
                     <x-forum.information.login></x-forum.information.login>
